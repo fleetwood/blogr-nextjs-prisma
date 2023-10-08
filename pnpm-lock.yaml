@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@prisma/client':
     specifier: ^5.4.1
-    version: 5.4.1(prisma@5.4.1)
+    version: 5.4.1(prisma@5.1.1)
   '@vercel/edge-config':
     specifier: ^0.4.1
     version: 0.4.1
@@ -32,8 +32,8 @@ devDependencies:
     specifier: 17.0.38
     version: 17.0.38
   prisma:
-    specifier: ^5.4.1
-    version: 5.4.1
+    specifier: ^5.1.1
+    version: 5.1.1
   typescript:
     specifier: 4.5.5
     version: 4.5.5
@@ -143,7 +143,7 @@ packages:
     dev: false
     optional: true
 
-  /@prisma/client@5.4.1(prisma@5.4.1):
+  /@prisma/client@5.4.1(prisma@5.1.1):
     resolution: {integrity: sha512-xyD0DJ3gRNfLbPsC+YfMBBuLJtZKQfy1OD2qU/PZg+HKrr7SO+09174LMeTlWP0YF2wca9LxtVd4HnAiB5ketQ==}
     engines: {node: '>=16.13'}
     requiresBuild: true
@@ -154,15 +154,15 @@ packages:
         optional: true
     dependencies:
       '@prisma/engines-version': 5.4.1-1.2f302df92bd8945e20ad4595a73def5b96afa54f
-      prisma: 5.4.1
+      prisma: 5.1.1
     dev: false
 
   /@prisma/engines-version@5.4.1-1.2f302df92bd8945e20ad4595a73def5b96afa54f:
     resolution: {integrity: sha512-+nUQM/y8C+1GG5Ioeqcu6itFslCfxvQSAUVSMC9XM2G2Fcq0F4Afnp6m0pXF6X6iUBWen7jZBPmM9Qlq4Nr3/A==}
     dev: false
 
-  /@prisma/engines@5.4.1:
-    resolution: {integrity: sha512-vJTdY4la/5V3N7SFvWRmSMUh4mIQnyb/MNoDjzVbh9iLmEC+uEykj/1GPviVsorvfz7DbYSQC4RiwmlEpTEvGA==}
+  /@prisma/engines@5.1.1:
+    resolution: {integrity: sha512-NV/4nVNWFZSJCCIA3HIFJbbDKO/NARc9ej0tX5S9k2EVbkrFJC4Xt9b0u4rNZWL4V+F5LAjvta8vzEUw0rw+HA==}
     requiresBuild: true
 
   /@types/debug@4.1.9:
@@ -600,13 +600,13 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /prisma@5.4.1:
-    resolution: {integrity: sha512-op9PmU8Bcw5dNAas82wBYTG0yHnpq9/O3bhxbDBrNzwZTwBqsVCxxYRLf6wHNh9HVaDGhgjjHlu1+BcW8qdnBg==}
+  /prisma@5.1.1:
+    resolution: {integrity: sha512-WJFG/U7sMmcc6TjJTTifTfpI6Wjoh55xl4AzopVwAdyK68L9/ogNo8QQ2cxuUjJf/Wa82z/uhyh3wMzvRIBphg==}
     engines: {node: '>=16.13'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 5.4.1
+      '@prisma/engines': 5.1.1
 
   /prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
